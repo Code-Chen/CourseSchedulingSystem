@@ -1,0 +1,9 @@
+
+.ant-advanced-search-form {
+    padding: 24px;
+    border-radius: 6px;
+}
+
+.ant-advanced-search-form .ant-form-item {
+    display: flex;
+}
