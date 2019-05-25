@@ -1,0 +1,1046 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9f849ec7-ad41-4390-97c4-37aa7a24e3b3" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/CourseSchedulingSystem$CourseSchedulingSystemApplication.ic" NAME="CourseSchedulingSystemApplication Coverage Results" MODIFIED="1551367842777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-2032906838">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="55" />
+          <entry key="project.open.time.10" value="21" />
+          <entry key="project.open.time.11" value="18" />
+          <entry key="project.open.time.12" value="6" />
+          <entry key="project.open.time.13" value="4" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.open.time.9" value="4" />
+          <entry key="project.opened" value="55" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="1" value="1" />
+          <entry key="class" value="2" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="89" />
+          <entry key="properties" value="2" />
+          <entry key="xml" value="50" />
+          <entry key="yml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="22" />
+          <entry key="JAVA" value="215" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="Properties" value="5" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="93" />
+          <entry key="YAML" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="42" />
+          <entry key="java" value="4800" />
+          <entry key="properties" value="120" />
+          <entry key="xml" value="2140" />
+          <entry key="yml" value="118" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="26333" />
+          <entry key="PLAIN_TEXT" value="55" />
+          <entry key="Properties" value="411" />
+          <entry key="SQL" value="66" />
+          <entry key="XML" value="3048" />
+          <entry key="YAML" value="118" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/ClassSchedulingService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="183">
+              <caret line="373" selection-start-line="373" selection-end-line="373" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/SQL/course_scheduling_system.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-39640" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/ClassroomLocationDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/vo/ConstantInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="650">
+              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/CoursePlanService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="312">
+              <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Controller/collegeController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1196">
+              <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/ClassTaskMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3900">
+              <caret line="150" column="23" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/TeachPlanMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="24" column="62" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/CoursePlanMapper.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2964">
+              <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/vo/QueryVO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="78">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding>
+                <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1052#1053#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>classroomNo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>teachBuildNo</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/resources/Mapper/TeachBuildInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/TeachBuildService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/ITeachBuildInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/TeachBuildInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/ILoactionInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/ILocationInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/LocationInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/ITeacherCourseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/TeacherCourseService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Controller/TeacherCourseController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mapper/TeachPlanMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/TeachBuildInfoDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/vo/ResultVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/PageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Util/CutUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/xnxy/CourseSchedulingSystem/CourseSchedulingSystemApplicationTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/ClassTaskDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/LocationInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mapper/ClassroomLocationMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/ClassroomLocationDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/po/ClassInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/ClassInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mapper/CollegeInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/IClassSchedulingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/po/CoursePlan.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/CoursePlanDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ClassSchedulingTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Util/ClassSchedulUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mapper/ClassInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mapper/TeacherCourseMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/TeacherCourseDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/CourseSchedulingSystemApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/ICollegeInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/CollegeInfoService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/vo/QueryVO.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/IClassTaskService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/ClassTaskService.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mapper/ClassTaskMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mapper/CoursePlanMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mapper/TeacherInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Controller/collegeController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Mapper/LocationInfoMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Util/PageUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Controller/SchoolController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/ClassSchedulingService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/vo/ConstantInfo.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.5.4" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CourseSchedulingSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CourseSchedulingSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CourseSchedulingSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="mybatis-generator" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="CourseSchedulingSystem" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="195" />
+    <option name="y" value="505" />
+    <option name="width" value="1385" />
+    <option name="height" value="755" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>SQL</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SqlNoDataSourceInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="CourseSchedulingSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CourseSchedulingSystem" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1558786239183" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\WorkSpace\CourseSchedulingSystem\src\main\resources\SQL" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\WorkSpace\CourseSchedulingSystem\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CourseSchedulingSystemApplication">
+    <configuration name="ClassSchedulingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CourseSchedulingSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassSchedulingTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassSchedulingTest.codingTimeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CourseSchedulingSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassSchedulingTest" />
+      <option name="METHOD_NAME" value="codingTimeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassSchedulingTest.selectByColumnNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CourseSchedulingSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassSchedulingTest" />
+      <option name="METHOD_NAME" value="selectByColumnNameTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassSchedulingTest.transformIndividualTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CourseSchedulingSystem" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ClassSchedulingTest" />
+      <option name="METHOD_NAME" value="transformIndividualTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CourseSchedulingSystemApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="CourseSchedulingSystem" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.xnxy.CourseSchedulingSystem.CourseSchedulingSystemApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CourseSchedulingSystemApplication" />
+      <item itemvalue="JUnit.ClassSchedulingTest.codingTimeTest" />
+      <item itemvalue="JUnit.ClassSchedulingTest" />
+      <item itemvalue="JUnit.ClassSchedulingTest.selectByColumnNameTest" />
+      <item itemvalue="JUnit.ClassSchedulingTest.transformIndividualTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ClassSchedulingTest.codingTimeTest" />
+        <item itemvalue="JUnit.ClassSchedulingTest.transformIndividualTest" />
+        <item itemvalue="JUnit.ClassSchedulingTest.selectByColumnNameTest" />
+        <item itemvalue="JUnit.ClassSchedulingTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9f849ec7-ad41-4390-97c4-37aa7a24e3b3" name="Default Changelist" comment="" />
+      <created>1551363675132</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1551363675132</updated>
+      <workItem from="1551363679682" duration="914000" />
+      <workItem from="1554000540891" duration="8780000" />
+      <workItem from="1554014787256" duration="7414000" />
+      <workItem from="1554022245051" duration="7658000" />
+      <workItem from="1554084084912" duration="6983000" />
+      <workItem from="1554167623939" duration="6113000" />
+      <workItem from="1554174102260" duration="12585000" />
+      <workItem from="1554254840532" duration="18041000" />
+      <workItem from="1554287122189" duration="852000" />
+      <workItem from="1554288493931" duration="450000" />
+      <workItem from="1554288973058" duration="888000" />
+      <workItem from="1554289892887" duration="5355000" />
+      <workItem from="1554341658109" duration="13181000" />
+      <workItem from="1554512726047" duration="6931000" />
+      <workItem from="1554605866676" duration="14421000" />
+      <workItem from="1554686667038" duration="15517000" />
+      <workItem from="1554727467619" duration="963000" />
+      <workItem from="1554771277901" duration="14954000" />
+      <workItem from="1554859991924" duration="12038000" />
+      <workItem from="1554891865206" duration="5230000" />
+      <workItem from="1554946478522" duration="14269000" />
+      <workItem from="1555033002458" duration="5772000" />
+      <workItem from="1555208616534" duration="1835000" />
+      <workItem from="1555290661877" duration="24744000" />
+      <workItem from="1555379943254" duration="11163000" />
+      <workItem from="1555464990420" duration="7062000" />
+      <workItem from="1555723328838" duration="215000" />
+      <workItem from="1555728696257" duration="492000" />
+      <workItem from="1555841416133" duration="92000" />
+      <workItem from="1555848220215" duration="2511000" />
+      <workItem from="1556246414284" duration="5722000" />
+      <workItem from="1556277398567" duration="686000" />
+      <workItem from="1556280451461" duration="652000" />
+      <workItem from="1556347949200" duration="552000" />
+      <workItem from="1556413835253" duration="7921000" />
+      <workItem from="1556628979885" duration="1247000" />
+      <workItem from="1556680986927" duration="3818000" />
+      <workItem from="1556806278707" duration="615000" />
+      <workItem from="1556896356542" duration="1382000" />
+      <workItem from="1556943683779" duration="4745000" />
+      <workItem from="1557149997829" duration="1286000" />
+      <workItem from="1557201796065" duration="619000" />
+      <workItem from="1557242651174" duration="627000" />
+      <workItem from="1557286961447" duration="2601000" />
+      <workItem from="1557409422894" duration="3131000" />
+      <workItem from="1557491764239" duration="4777000" />
+      <workItem from="1557521853792" duration="1596000" />
+      <workItem from="1557523637881" duration="1374000" />
+      <workItem from="1557525399241" duration="518000" />
+      <workItem from="1557526099102" duration="177000" />
+      <workItem from="1557526709441" duration="882000" />
+      <workItem from="1557540161682" duration="2816000" />
+      <workItem from="1557557854164" duration="1651000" />
+      <workItem from="1557852690938" duration="855000" />
+      <workItem from="1558786152141" duration="124000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ClassSchedulingTest_codingTimeTest - 2019.04.17 at 10h 57m 12s.xml">
+      <configuration name="ClassSchedulingTest.codingTimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassSchedulingTest_codingTimeTest - 2019.05.11 at 06h 23m 36s.xml">
+      <configuration name="ClassSchedulingTest.codingTimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassSchedulingTest_codingTimeTest - 2019.05.11 at 06h 24m 14s.xml">
+      <configuration name="ClassSchedulingTest.codingTimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassSchedulingTest_codingTimeTest - 2019.05.11 at 06h 24m 41s.xml">
+      <configuration name="ClassSchedulingTest.codingTimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassSchedulingTest_codingTimeTest - 2019.05.11 at 10h 04m 52s.xml">
+      <configuration name="ClassSchedulingTest.codingTimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassSchedulingTest_codingTimeTest - 2019.05.11 at 10h 05m 21s.xml">
+      <configuration name="ClassSchedulingTest.codingTimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassSchedulingTest_codingTimeTest - 2019.05.11 at 10h 09m 30s.xml">
+      <configuration name="ClassSchedulingTest.codingTimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassSchedulingTest_codingTimeTest - 2019.05.11 at 10h 11m 47s.xml">
+      <configuration name="ClassSchedulingTest.codingTimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassSchedulingTest_codingTimeTest - 2019.05.11 at 10h 13m 01s.xml">
+      <configuration name="ClassSchedulingTest.codingTimeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ClassSchedulingTest_codingTimeTest - 2019.05.11 at 10h 13m 12s.xml">
+      <configuration name="ClassSchedulingTest.codingTimeTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="277797000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24731903" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Statistic" order="0" weight="0.19536904" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49932975" weight="0.36324167" />
+      <window_info anchor="bottom" id="Debug" order="4" sideWeight="0.49865952" weight="0.3342981" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.3299566" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5020107" side_tool="true" weight="0.18379161" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.47467437" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" sideWeight="0.5042194" side_tool="true" visible="true" weight="0.3297587" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" sideWeight="0.4978903" weight="0.46849865" />
+      <window_info anchor="right" id="Database" order="7" sideWeight="0.4957806" weight="0.3297587" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.3297587" />
+      <window_info anchor="right" id="CDI" order="11" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/JAVAJDK/lib/src.zip!/java.base/jdk/internal/util/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="936">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/vo/ResultVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="40" column="57" selection-start-line="40" selection-start-column="57" selection-end-line="40" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/UserInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="43" column="43" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/LocationInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/po/ClassInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/ClassroomLocationMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="35" column="63" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/CollegeInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="73" selection-start-line="5" selection-start-column="73" selection-end-line="5" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/ClassTaskDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/po/ClassTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="28" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/po/CoursePlan.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="85" column="33" selection-start-line="85" selection-start-column="33" selection-end-line="85" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/CourseInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-78" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/ClassInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.5.RELEASE/spring-tx-5.1.5.RELEASE.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="177" selection-start-line="177" selection-end-line="177" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.5.RELEASE/spring-aop-5.1.5.RELEASE.jar!/org/springframework/aop/support/AopUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1555">
+          <caret line="195" selection-start-line="195" selection-end-line="195" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/TeacherCourseDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="18" column="1" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Util/ClassSchedulUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="8" column="61" selection-start-line="8" selection-start-column="61" selection-end-line="8" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="16" selection-start-column="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/CourseSchedulingSystemApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/ICollegeInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/CollegeInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="17" column="71" selection-start-line="17" selection-start-column="71" selection-end-line="17" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/CoursePlanDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/ClassInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="80" selection-start-line="7" selection-start-column="80" selection-end-line="7" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/ICoursePlanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/IClassTaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/ClassTaskService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1508">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/TeacherCourseMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="63" selection-start-line="2" selection-start-column="63" selection-end-line="2" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/ITeacherInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/TeacherInfoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/TeacherInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/LocationInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="46" column="68" selection-start-line="46" selection-start-column="68" selection-end-line="46" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/TeachBuildInfoMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/JAVAJDK/lib/src.zip!/java.base/sun/nio/ch/WindowsSelectorImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="309" column="27" selection-start-line="309" selection-start-column="27" selection-end-line="309" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="45" column="38" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Util/PageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Controller/SchoolController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="85" column="40" selection-start-line="85" selection-start-column="40" selection-end-line="85" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ClassSchedulingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/IClassSchedulingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Dao/ClassroomLocationDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/vo/ConstantInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="650">
+          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/CoursePlanService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Controller/collegeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1196">
+          <caret line="60" column="11" selection-start-line="60" selection-start-column="11" selection-end-line="60" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/ClassTaskMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3900">
+          <caret line="150" column="23" selection-start-line="150" selection-start-column="23" selection-end-line="150" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/TeachPlanMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Mapper/CoursePlanMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2964">
+          <caret line="114" column="30" selection-start-line="114" selection-start-column="30" selection-end-line="114" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Bean/vo/QueryVO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding>
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1052#1053#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xnxy/CourseSchedulingSystem/Service/Impl/ClassSchedulingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="373" selection-start-line="373" selection-end-line="373" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/SQL/course_scheduling_system.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39640" />
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>CourseSchedulingSystem</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.4275862" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

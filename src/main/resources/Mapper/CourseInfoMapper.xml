@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xnxy.CourseSchedulingSystem.Dao.CourseInfoDao">
+  <resultMap id="BaseResultMap" type="com.xnxy.CourseSchedulingSystem.Bean.po.CourseInfo">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="courseNo" jdbcType="VARCHAR" property="courseno" />
+    <result column="courseName" jdbcType="VARCHAR" property="coursename" />
+    <result column="courseAttr" jdbcType="VARCHAR" property="courseattr" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from course_info
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.CourseInfo">
+    insert into course_info (id, courseNo, courseName, 
+      courseAttr)
+    values (#{id,jdbcType=BIGINT}, #{courseno,jdbcType=VARCHAR}, #{coursename,jdbcType=VARCHAR}, 
+      #{courseattr,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.CourseInfo">
+    update course_info
+    set courseNo = #{courseno,jdbcType=VARCHAR},
+      courseName = #{coursename,jdbcType=VARCHAR},
+      courseAttr = #{courseattr,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, courseNo, courseName, courseAttr
+    from course_info
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, courseNo, courseName, courseAttr
+    from course_info
+  </select>
+</mapper>

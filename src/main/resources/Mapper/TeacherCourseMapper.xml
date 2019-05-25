@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xnxy.CourseSchedulingSystem.Dao.TeacherCourseDao">
+  <resultMap id="BaseResultMap" type="com.xnxy.CourseSchedulingSystem.Bean.po.TeacherCourse">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="teacherNo" jdbcType="VARCHAR" property="teacherno" />
+    <result column="courseNo" jdbcType="VARCHAR" property="courseno" />
+    <result column="classNo" jdbcType="VARCHAR" property="classno" />
+    <result column="classroomNo" jdbcType="VARCHAR" property="classroomno" />
+    <result column="classTime" jdbcType="VARCHAR" property="classtime"/>
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from teacher_course
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insertTeacherCourse" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.CoursePlan">
+    insert into teacher_course
+    <trim prefix="(" suffix=")" suffixOverrides=",">
+      <if test="classno != null">
+        classNo,
+      </if>
+      <if test="courseno != null">
+        courseNo,
+      </if>
+      <if test="teacherno != null">
+        teacherNo,
+      </if>
+      <if test="classroomno != null">
+        classroomNo,
+      </if>
+      <if test="classtime != null">
+        classTime
+      </if>
+    </trim>
+    <trim prefix="values(" suffix=")" suffixOverrides=",">
+      <if test="classno != null">
+        #{classno,jdbcType=VARCHAR},
+      </if>
+      <if test="courseno != null">
+        #{courseno,jdbcType=VARCHAR},
+      </if>
+      <if test="teacherno != null">
+        #{teacherno,jdbcType=VARCHAR},
+      </if>
+      <if test="classroomno != null">
+        #{classroomno,jdbcType=VARCHAR},
+      </if>
+      <if test="classtime != null">
+        #{classtime,jdbcType=VARCHAR}
+      </if>
+    </trim>
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.TeacherCourse">
+    update teacher_course
+    set teacherNo = #{teacherno,jdbcType=VARCHAR},
+      courseNo = #{courseno,jdbcType=VARCHAR},
+      classNo = #{classno,jdbcType=VARCHAR},
+      classroomNo = #{classroomno,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, teacherNo, courseNo, classNo, classroomNo
+    from teacher_course
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectAll" resultMap="BaseResultMap">
+    select id, teacherNo, courseNo, classNo, classroomNo
+    from teacher_course
+  </select>
+</mapper>

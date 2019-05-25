@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xnxy.CourseSchedulingSystem.Dao.ClassTaskDao">
+    <resultMap id="BaseResultMap" type="com.xnxy.CourseSchedulingSystem.Bean.po.ClassTask">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="semester" jdbcType="VARCHAR" property="semester"/>
+        <result column="collegeNo" jdbcType="VARCHAR" property="collegeno"/>
+        <result column="classNo" jdbcType="VARCHAR" property="classno"/>
+        <result column="courseNo" jdbcType="VARCHAR" property="courseno"/>
+        <result column="teacherNo" jdbcType="VARCHAR" property="teacherno"/>
+        <result column="courseAttr" jdbcType="VARCHAR" property="courseattr"/>
+        <result column="studentNumber" jdbcType="INTEGER" property="studentnumber"/>
+        <result column="weeksSum" jdbcType="INTEGER" property="weekssum"/>
+        <result column="weeksNumber" jdbcType="INTEGER" property="weeksnumber"/>
+        <result column="isFix" jdbcType="VARCHAR" property="isfix"/>
+        <result column="classTime" jdbcType="VARCHAR" property="classtime"/>
+    </resultMap>
+    <delete id="deleteByPrimaryKey" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.ClassTask">
+    delete from class_task
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+    <insert id="insert" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.ClassTask">
+        insert into class_task
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="semester != null">
+                semester,
+            </if>
+            <if test="collegeno != null">
+                collegeNo,
+            </if>
+            <if test="classno != null">
+                classNo,
+            </if>
+            <if test="courseno != null">
+                courseNo,
+            </if>
+            <if test="teacherno != null">
+                teacherNo,
+            </if>
+            <if test="courseattr != null">
+                courseAttr,
+            </if>
+            <if test="studentnumber != null">
+                studentNumber,
+            </if>
+            <if test="weekssum != null">
+                weeksSum,
+            </if>
+            <if test="weeksnumber != null">
+                weeksNumber,
+            </if>
+            <if test="isfix != null">
+                isFix,
+            </if>
+            <if test="classtime != null">
+                classTime
+            </if>
+        </trim>
+
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="semester != null">
+                #{semester,jdbcType=VARCHAR},
+            </if>
+            <if test="collegeno != null">
+                #{collegeno,jdbcType=VARCHAR},
+            </if>
+            <if test="classno != null">
+                #{classno,jdbcType=VARCHAR},
+            </if>
+            <if test="courseno != null">
+                #{courseno,jdbcType=VARCHAR},
+            </if>
+            <if test="teacherno != null">
+                #{teacherno,jdbcType=VARCHAR},
+            </if>
+            <if test="courseattr != null">
+                #{courseattr,jdbcType=VARCHAR},
+            </if>
+            <if test="studentnumber != null">
+                #{studentnumber,jdbcType=INTEGER},
+            </if>
+            <if test="weekssum != null">
+                #{weekssum,jdbcType=INTEGER},
+            </if>
+            <if test="weeksnumber != null">
+                #{weeksnumber,jdbcType=INTEGER},
+            </if>
+            <if test="isfix != null">
+                #{isfix,jdbcType=VARCHAR},
+            </if>
+            <if test="classtime != null">
+                #{classtime,jdbcType=VARCHAR}
+            </if>
+        </trim>
+    </insert>
+    <update id="updateByPrimaryKey" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.ClassTask">
+        update class_task
+        <set>
+            <if test="semester != null">
+                semester = #{semester,jdbcType=VARCHAR},
+            </if>
+            <if test="collegeno != null">
+                collegeNo = #{collegeno,jdbcType=VARCHAR},
+            </if>
+            <if test="classno != null">
+                classNo = #{classno,jdbcType=VARCHAR},
+            </if>
+            <if test="courseno != null">
+                courseNo = #{courseno,jdbcType=VARCHAR},
+            </if>
+            <if test="teacherno != null">
+                teacherNo = #{teacherno,jdbcType=VARCHAR},
+            </if>
+            <if test="courseattr != null">
+                courseAttr = #{courseattr,jdbcType=VARCHAR},
+            </if>
+            <if test="studentnumber != null">
+                studentNumber = #{studentnumber,jdbcType=INTEGER},
+            </if>
+            <if test="weekssum != null">
+                weeksSum = #{weekssum,jdbcType=INTEGER},
+            </if>
+            <if test="weeksnumber != null">
+                weeksNumber = #{weeksnumber,jdbcType=INTEGER},
+            </if>
+            <if test="isfix != null">
+                isFix = #{isfix,jdbcType=VARCHAR},
+            </if>
+            <if test="classtime != null">
+                classTime = #{classtime,jdbcType=VARCHAR}
+            </if>
+        </set>
+        where id = #{id,jdbcType=BIGINT}
+    </update>
+    <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, semester, collegeNo, classNo, courseNo, teacherNo, courseAttr, studentNumber, 
+    weeksSum, weeksNumber, isFix, classTime
+    from class_task
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+    <select id="selectAll" resultMap="BaseResultMap" parameterType="com.xnxy.CourseSchedulingSystem.Bean.vo.QueryVO">
+        select * from ( select clt.id, clt.semester, clt.collegeNo, cli.className as classNo, coi.courseName as
+        courseNo,tei.teacherName as teacherNo, clt.courseAttr, clt.studentNumber,
+        clt.weeksSum, clt.weeksNumber, clt.isFix, clt.classTime
+        from class_task clt, class_info cli, course_info coi, teacher_info tei where
+     cli.classNo = clt.classNo and coi.courseNo = clt.courseNo and clt.teacherNo = tei.teacherNo
+        <if test="collegeno != null">
+           and clt.collegeNo =
+            #{collegeno,jdbcType=VARCHAR}
+        </if>
+        order by clt.id
+       ) as temp
+        <if test="condition != null">
+            where semester like concat ("%",#{condition,jdbcType=VARCHAR},"%")
+            or classNo like concat ("%",#{condition,jdbcType=VARCHAR},"%")
+            or courseNo like concat ("%",#{condition,jdbcType=VARCHAR},"%")
+            or teacherNo like concat ("%",#{condition,jdbcType=VARCHAR},"%")
+        </if>
+    </select>
+    <select id="selectBySemester" resultMap="BaseResultMap" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.ClassTask">
+        select * from class_task where semester = #{semester,jdbcType=VARCHAR}
+    </select>
+
+    <select id="selectByColumnName" resultType="java.lang.String" parameterType="java.lang.String">
+       select distinct  ${columnName} from class_task 
+    </select>
+</mapper>

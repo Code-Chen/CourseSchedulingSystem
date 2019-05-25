@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xnxy.CourseSchedulingSystem.Dao.CoursePlanDao">
+    <resultMap id="BaseResultMap" type="com.xnxy.CourseSchedulingSystem.Bean.po.CoursePlan">
+        <id column="id" jdbcType="BIGINT" property="id"/>
+        <result column="collegeNo" jdbcType="VARCHAR" property="collegeno"/>
+        <result column="classNo" jdbcType="VARCHAR" property="classno"/>
+        <result column="courseNo" jdbcType="VARCHAR" property="courseno"/>
+        <result column="teacherNo" jdbcType="VARCHAR" property="teacherno"/>
+        <result column="classroomNo" jdbcType="VARCHAR" property="classroomno"/>
+        <result column="classTime" jdbcType="VARCHAR" property="classtime"/>
+        <result column="weeksSum" jdbcType="INTEGER" property="weekssum"/>
+        <result column="semester" jdbcType="VARCHAR" property="semester"/>
+    </resultMap>
+    <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+        delete
+        from course_plan
+        where id = #{id,jdbcType=BIGINT}
+    </delete>
+    <insert id="insertCoursePlan" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.CoursePlan">
+        insert into course_plan
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+            <if test="semester != null">
+                semester,
+            </if>
+            <if test="collegeno != null">
+                collegeNo,
+            </if>
+            <if test="classno != null">
+                classNo,
+            </if>
+            <if test="courseno != null">
+                courseNo,
+            </if>
+            <if test="teacherno != null">
+                teacherNo,
+            </if>
+            <if test="classroomno != null">
+                classroomNo,
+            </if>
+            <if test="weekssum != null">
+                weeksSum,
+            </if>
+
+            <if test="classtime != null">
+                classTime
+            </if>
+        </trim>
+        <trim prefix="values(" suffix=")" suffixOverrides=",">
+            <if test="semester != null">
+                #{semester,jdbcType=VARCHAR},
+            </if>
+            <if test="collegeno != null">
+                #{collegeno,jdbcType=VARCHAR},
+            </if>
+            <if test="classno != null">
+                #{classno,jdbcType=VARCHAR},
+            </if>
+            <if test="courseno != null">
+                #{courseno,jdbcType=VARCHAR},
+            </if>
+            <if test="teacherno != null">
+                #{teacherno,jdbcType=VARCHAR},
+            </if>
+            <if test="classroomno != null">
+                #{classroomno,jdbcType=VARCHAR},
+            </if>
+            <if test="weekssum != null">
+                #{weekssum,jdbcType=INTEGER},
+            </if>
+            <if test="classtime != null">
+                #{classtime,jdbcType=VARCHAR}
+            </if>
+        </trim>
+    </insert>
+    <update id="updateCoursePlan" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.ClassTask">
+        update course_plan
+        set weeksSum = #{weekssum,jdbcType=INTEGER},
+            semester = #{semester,jdbcType=VARCHAR}
+        where collegeNo = #{collegeno,jdbcType=VARCHAR}
+          and classNo = #{classno,jdbcType=VARCHAR}
+          and courseNo = #{courseno,jdbcType=VARCHAR}
+          and teacherNo = #{teacherno,jdbcType=VARCHAR}
+    </update>
+
+
+    <select id="selectAll" resultMap="BaseResultMap" parameterType="com.xnxy.CourseSchedulingSystem.Bean.vo.QueryVO">
+        SELECT
+        *
+        FROM
+        (
+        SELECT
+        cop.id,
+        cli.className AS classNo,
+        coi.courseName AS courseNo,
+        tei.teacherName AS teacherNo,
+        cop.classroomNo ,
+        cop.classTime,
+        cop.weeksSum
+        FROM
+        course_plan cop,
+        class_info cli,
+        course_info coi,
+        teacher_info tei
+        WHERE
+        cop.classNo = cli.classNo
+        AND cop.courseNo = coi.courseNo
+        AND cop.teacherNo = tei.teacherNo
+        <if test="semester != null and semester != ''">
+            AND cop.semester = #{semester,jdbcType=VARCHAR}
+        </if>
+        <if test="collegeno != null and collegeno != ''">
+            AND cop.collegeNo = #{collegeno,jdbcType=VARCHAR}
+        </if>
+        order by cop.classTime
+        ) AS temp
+
+        <if test="condition != null">
+            where classNo like concat ("%",#{condition,jdbcType=VARCHAR},"%")
+            or courseNo like concat ("%",#{condition,jdbcType=VARCHAR},"%")
+            or teacherNo like concat ("%",#{condition,jdbcType=VARCHAR},"%")
+
+        </if>
+    </select>
+</mapper>

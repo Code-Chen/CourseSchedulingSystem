@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration
+        PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN"
+        "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+
+<generatorConfiguration>
+    <!--
+        context 元素用于指定生成一组对象的环境。
+        targetRuntime：MyBatis3Simple 只生成提供简单增删改查的代码
+    -->
+    <!-- 数据库connector的jar包所在位置，一般应该在你的repo文件夹下-->
+    <classPathEntry  location="D:\mylib\mysql\mysql-connector-java-8.0.12.jar"/>
+    <context id="testTables" targetRuntime="MyBatis3Simple">
+
+        <commentGenerator>
+            <!-- 是否去除自动生成的注释 true：是 ： false:否 -->
+            <property name="suppressAllComments" value="true" />
+        </commentGenerator>
+
+        <!-- 数据库连接的信息：驱动类、连接地址、用户名、密码 -->
+        <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
+                        connectionURL="jdbc:mysql://localhost:3306/course_scheduling_system?serverTimezone=UTC&amp;useUnicode=true&amp;characterEncoding=utf8&amp;useSSL=false"
+                        userId="root"
+                        password="root">
+        </jdbcConnection>
+
+        <!-- 默认 false，把 JDBC DECIMAL 和 NUMERIC 类型解析为 Integer，为 true 时把 JDBC DECIMAL 和
+            NUMERIC 类型解析为 java.math.BigDecimal -->
+        <javaTypeResolver>
+            <property name="forceBigDecimals" value="false" />
+        </javaTypeResolver>
+
+        <!--
+            targetPackage：指定 POJO 类生成后所在的包的位置
+            targetProject:指定生成 POJO 类的位置
+        -->
+        <javaModelGenerator targetPackage="com.xnxy.CourseSchedulingSystem.Bean.po"
+                            targetProject=".\src\main\java">
+            <!-- enableSubPackages:是否让 schema 作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+            <!-- 从数据库返回的值被清理前后的空格 -->
+            <property name="trimStrings" value="false" />
+        </javaModelGenerator>
+
+        <!--
+            targetPackage：指定生成的 SQL 映射文件所在的位置
+        -->
+        <sqlMapGenerator targetPackage="Mapper"
+                         targetProject=".\src\main\resources/">
+            <!-- enableSubPackages:是否让 schema 作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+        </sqlMapGenerator>
+
+        <!--
+            targetPackage：指定 mapper 接口生成包的位置
+        -->
+        <javaClientGenerator type="XMLMAPPER"
+                             targetPackage="com.xnxy.CourseSchedulingSystem.Dao"
+                             targetProject=".\src\main\java">
+            <!-- enableSubPackages:是否让 schema 作为包的后缀 -->
+            <property name="enableSubPackages" value="false" />
+        </javaClientGenerator>
+
+        <!--
+            指定数据库表
+            tableName：指定表名
+            domainObjectName：指定生成的 POJO 的类名
+         -->
+        <!--<table tableName="class_info" domainObjectName="ClassInfo"/>
+        <table tableName="class_task" domainObjectName="ClassTask"/>
+        <table tableName="classroom_location" domainObjectName="ClassroomLocation"/>
+        <table tableName="course_info" domainObjectName="CourseInfo"/>
+        <table tableName="location_info" domainObjectName="LocationInfo"/>
+        <table tableName="teach_plan" domainObjectName="TeachPlan"/>
+        <table tableName="teacher_course" domainObjectName="TeacherCourse"/>
+        <table tableName="teacher_info" domainObjectName="TeacherInfo"/>
+        <table tableName="user_info" domainObjectName="UserInfo"/>-->
+        <!--<table tableName="college_info" domainObjectName="CollegeInfo"/>-->
+        <!--<table tableName="course_plan" domainObjectName="CoursePlan"/>-->
+        <table tableName="teach_build_info" domainObjectName="TeachBuildInfo"/>
+    </context>
+</generatorConfiguration>

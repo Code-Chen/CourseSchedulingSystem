@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xnxy.CourseSchedulingSystem.Dao.TeachPlanDao">
+  <resultMap id="BaseResultMap" type="com.xnxy.CourseSchedulingSystem.Bean.po.TeachPlan">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="classNo" jdbcType="VARCHAR" property="classno" />
+    <result column="className" jdbcType="VARCHAR" property="classname" />
+    <result column="courseNo" jdbcType="VARCHAR" property="courseno" />
+    <result column="collegeNo" jdbcType="VARCHAR" property="collegeno" />
+    <result column="studentNumber" jdbcType="INTEGER" property="studentnumber" />
+    <result column="courseAttr" jdbcType="VARCHAR" property="courseattr" />
+    <result column="classHour" jdbcType="INTEGER" property="classhour" />
+    <result column="weeksNumber" jdbcType="INTEGER" property="weeksnumber" />
+    <result column="weeksSum" jdbcType="INTEGER" property="weekssum" />
+    <result column="semester" jdbcType="VARCHAR" property="semester" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from teach_plan
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+
+  <select id="selectAll" resultType="com.xnxy.CourseSchedulingSystem.Bean.vo.TeachPlanVO" parameterType="com.xnxy.CourseSchedulingSystem.Bean.vo.QueryVO">
+    select * from (select teach_plan.id, classNo, className, teach_plan.courseNo, course_info.courseName, collegeNo, studentNumber, teach_plan.courseAttr,
+    weeksNumber, weeksSum, semester
+    from teach_plan ,course_info where collegeNo = #{collegeno,jdbcType=VARCHAR} and teach_plan.courseNo = course_info.courseNo
+    and teach_plan.courseNo not in (select class_task.courseNo from class_task,teach_plan
+    where class_task.classNo = teach_plan.classNo and class_task.courseNo = teach_plan.courseNo))
+    as temp
+    <if test="condition != null">
+      where semester like concat ("%",#{condition,jdbcType=VARCHAR},"%")
+      or className like concat ("%",#{condition,jdbcType=VARCHAR},"%")
+      or courseName like concat ("%",#{condition,jdbcType=VARCHAR},"%")
+
+    </if>
+  </select>
+</mapper>

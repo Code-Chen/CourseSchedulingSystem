@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.xnxy.CourseSchedulingSystem.Dao.ClassroomLocationDao">
+  <resultMap id="BaseResultMap" type="com.xnxy.CourseSchedulingSystem.Bean.po.ClassroomLocation">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="teachBuildNo" jdbcType="VARCHAR" property="teachbuildno" />
+    <result column="classroomNo" jdbcType="VARCHAR" property="classroomno" />
+    <result column="capacity" jdbcType="INTEGER" property="capacity" />
+    <result column="classroomAttr" jdbcType="VARCHAR" property="classroomattr" />
+  </resultMap>
+  <delete id="deleteByPrimaryKey" parameterType="java.lang.Long">
+    delete from classroom_location
+    where id = #{id,jdbcType=BIGINT}
+  </delete>
+  <insert id="insert" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.ClassroomLocation">
+    insert into classroom_location (id, teachBuildNo, classroomNo, 
+      capacity, classroomAttr)
+    values (#{id,jdbcType=BIGINT}, #{teachbuildno,jdbcType=VARCHAR}, #{classroomno,jdbcType=VARCHAR}, 
+      #{capacity,jdbcType=INTEGER}, #{classroomattr,jdbcType=VARCHAR})
+  </insert>
+  <update id="updateByPrimaryKey" parameterType="com.xnxy.CourseSchedulingSystem.Bean.po.ClassroomLocation">
+    update classroom_location
+    set teachBuildNo = #{teachbuildno,jdbcType=VARCHAR},
+      classroomNo = #{classroomno,jdbcType=VARCHAR},
+      capacity = #{capacity,jdbcType=INTEGER},
+      classroomAttr = #{classroomattr,jdbcType=VARCHAR}
+    where id = #{id,jdbcType=BIGINT}
+  </update>
+  <select id="selectByPrimaryKey" parameterType="java.lang.Long" resultMap="BaseResultMap">
+    select id, teachBuildNo, classroomNo, capacity, classroomAttr
+    from classroom_location
+    where id = #{id,jdbcType=BIGINT}
+  </select>
+  <select id="selectByTeachBuildNo" resultMap="BaseResultMap" parameterType="java.lang.String">
+    select id, teachBuildNo, classroomNo, capacity, classroomAttr
+    from classroom_location where teachBuildNo = #{teachBuildNo,jdbcType=VARCHAR}
+  </select>
+</mapper>
